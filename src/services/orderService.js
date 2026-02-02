@@ -18,7 +18,7 @@ async function createOrder({ userId, items }) {
 }
 
 function calculateTotal(items) {
-  if (!items.length) {
+  if (items.length === 0) {
     throw new Error('Order must contain at least one item');
   }
 
