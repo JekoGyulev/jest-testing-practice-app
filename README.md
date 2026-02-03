@@ -65,7 +65,7 @@ cd jest-testing-practice-app
 
 Install dependencies:
 
-npm install
+npm install / npm ci
 
 ▶️ Usage
 
